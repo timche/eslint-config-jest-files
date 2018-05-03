@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-jest-files",
   "version": "0.1.0",
-  "description": "ESLint shareable config for Jest global variables in test files",
+  "description": "ESLint shareable config for Jest with global variables in test files",
   "main": "index.js",
   "repository": "timche/eslint-config-jest",
   "author": "Tim Cheung <tim@cheung.io>",
@@ -38,6 +38,7 @@
   "prettier": {
     "semi": false,
     "singleQuote": true,
+    "bracketSpacing": true,
     "trailingComma": "none"
   },
   "xo": {
