@@ -8,13 +8,13 @@
   "license": "MIT",
   "keywords": [
     "eslint",
-    "xo",
+    "config",
     "jest",
-    "env",
-    "global variables",
+    "files",
     "global",
-    "test files",
-    "test"
+    "variables",
+    "test",
+    "files"
   ],
   "files": [
     "index.js"
