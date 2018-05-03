@@ -1,0 +1,48 @@
+{
+  "name": "eslint-config-jest-files",
+  "version": "0.1.0",
+  "description": "ESLint shareable config for Jest global variables in test files",
+  "main": "index.js",
+  "repository": "timche/eslint-config-jest",
+  "author": "Tim Cheung <tim@cheung.io>",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "xo",
+    "jest",
+    "env",
+    "global variables",
+    "global",
+    "test files",
+    "test"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "precommit": "pretty-quick --staged",
+    "test": "jest",
+    "format": "pretty-quick",
+    "lint": "xo"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-xo": "^0.22.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "husky": "^0.14.3",
+    "jest": "^22.4.3",
+    "pretty-quick": "^1.4.1",
+    "temp-write": "^3.4.0",
+    "xo": "^0.20.3"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "none"
+  },
+  "xo": {
+    "space": true,
+    "prettier": true,
+    "env": "jest"
+  }
+}
