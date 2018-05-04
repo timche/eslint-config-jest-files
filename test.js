@@ -39,3 +39,12 @@ test('**/_tests__/**/*.js(x)', async () => {
   expect(await runEslint('test/__tests__/test.jsx')).toHaveLength(0)
   expect(await runEslint('test/__tests__/test/test.jsx')).toHaveLength(0)
 })
+
+test('errors', async () => {
+  expect(await runEslint('index.js')).toHaveLength(2)
+  expect(await runEslint('index.jsx')).toHaveLength(2)
+  expect(await runEslint('test/index.js')).toHaveLength(2)
+  expect(await runEslint('test/index.jsx')).toHaveLength(2)
+  expect(await runEslint('tests/index.js')).toHaveLength(2)
+  expect(await runEslint('tests/index.jsx')).toHaveLength(2)
+})
