@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jest-files",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "ESLint shareable config for Jest with globals in test files",
   "main": "index.js",
   "repository": "timche/eslint-config-jest",
