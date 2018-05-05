@@ -3,7 +3,7 @@
   "version": "0.1.2",
   "description": "ESLint shareable config for Jest with globals in test files",
   "main": "index.js",
-  "repository": "timche/eslint-config-jest",
+  "repository": "timche/eslint-config-jest-files",
   "author": "Tim Cheung <tim@cheung.io>",
   "license": "MIT",
   "keywords": [
@@ -11,8 +11,7 @@
     "config",
     "jest",
     "files",
-    "global",
-    "variables",
+    "globals",
     "test",
     "files"
   ],
